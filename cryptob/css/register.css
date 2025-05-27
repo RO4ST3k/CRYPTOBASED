@@ -1,0 +1,202 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #060915;
+
+}
+.login-container{
+    position: absolute;
+    width: 00px;
+    height: 550px;
+    top: 50px;
+    left: 400px;
+    background: rgba(217, 217, 217, 0.1);
+    box-shadow: inset 41.8667px -41.8667px 41.8667px rgba(165, 165, 165, 0.1), inset -41.8667px 41.8667px 41.8667px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(41.8667px);
+    border-radius: 25px;
+}
+.login-container h4{
+position: absolute;
+font-family: "poppins";
+width: 82px;
+height: 36px;
+left: 200px;
+top: 50px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+color: #FFFFFF;
+
+
+}
+.login-email {
+    position: absolute;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    left: 50px;
+    color: #FFFFFF;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    outline: none;
+    padding: 5px 0;
+    width: 400px;
+    top: 200px;
+}
+
+.login-email::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+.password-container {
+    position: relative;
+}
+
+.login-pass {
+    position: absolute;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    left: 50px;
+    color: #FFFFFF;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    outline: none;
+    padding: 5px 35px 5px 0; /* space for the icon */
+    width: 365px;
+    top: 200px;
+}
+
+.login-pass::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Removed the focus placeholder rule that made it transparent */
+
+.toggle-password {
+    position: absolute;
+    top: 205px;
+    left: 420px;
+    color: #FFFFFF;
+    font-size: 20px;
+    cursor: pointer;
+    user-select: none;
+}
+.checkbox{
+    position: absolute;
+    top: 260px;
+    left: 50px;
+}
+#remember{
+    position: absolute;
+    left: 70px;
+    position: absolute;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+    top: 255px;
+}
+.forgot-pass{
+    position: absolute;
+    left: 300px;
+    top: 255px;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    color: #FFFFFF;
+}
+.login-container button{
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    background: linear-gradient(158.96deg,  #2D5480 12.91%, #010E1A 78.78%);
+    border-radius: 10px;
+    border: solid black 1px;
+    top: 300px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    color: white;
+    left: 50px;
+}
+.login-container button:hover {
+    background: #007BFF; /* You can change this to any shade of blue you like */
+    border-color: #007BFF; /* Optional: change the border color to match */
+    cursor: pointer; /* Optional: makes it clear the button is clickable */
+}
+
+.register{
+    position: absolute;
+    left: 130px;
+    color: white;
+    top: 390px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: white;
+    width: 200px;
+}
+#register{
+    position: absolute;
+    text-decoration: none;
+    left: 340px;
+    font-weight: 500;
+    font-size: 17px;
+    top: 388px;
+    
+}
+.imil{
+    position: absolute;
+    left: 420px;
+    top: 200px;
+    height: 13px;
+}
+.wow{
+    position: absolute;
+    top: 80px;
+}
+.name{
+        position: absolute;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        left: 50px;
+        color: #FFFFFF;
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid #FFFFFF;
+        outline: none;
+        padding: 5px 0;
+        width: 400px;
+        top: 120px;
+    }
+    
+    .name::placeholder {
+        color: rgba(255, 255, 255, 0.7);
+    }
+    .forgot-pass{
+        position: absolute;
+        left: 320px;
+        position: absolute;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        color: #FFFFFF;
+        top: 255px;
+    
+    }

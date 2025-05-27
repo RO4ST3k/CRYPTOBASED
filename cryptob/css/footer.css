@@ -1,0 +1,133 @@
+.footer-container{
+position: absolute;
+width: 1264px;
+height: 418px;
+left: 0px;
+top: 3300px;
+background: rgba(11, 10, 12, 0.6);
+z-index: 0;
+}
+.list1, .list2 {
+    list-style-type: none; 
+    padding-left: 0; 
+    margin: 0;
+    line-height: 2.0
+}
+
+.list1 li a,
+.list2 li a {
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.7);
+    
+}
+.footer-second h6{
+    position: absolute;
+    width: 105px;
+    height: 27px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: white;
+    bottom: 230px;
+    }
+    .footer-second{
+        position: absolute;
+        left: 1000px;
+        bottom: 100px;
+    }
+    .footer-second .list2{
+        position: relative;
+        bottom: 50px;
+    }
+.footer-first h6{
+    position: absolute;
+    width: 105px;
+    height: 27px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: white;
+    bottom: 180px;
+}
+.footer-first{
+    position: absolute;
+    left: 600px;
+    top: 105px;
+}
+.footer-container {
+    position: relative; /* Ensure the footer is positioned relative for absolute positioning of pseudo-elements */
+}
+
+.list2 {
+    position: relative; /* Ensure the list is positioned relative for absolute positioning of pseudo-elements */
+}
+
+.list2 li {
+    position: relative; /* Position relative to allow absolute positioning of the pseudo-element */
+    list-style: none; /* Remove default list styling */
+}
+
+.list2 li a {
+    position: relative; /* Position relative to allow absolute positioning of the pseudo-element */
+    text-decoration: none; /* Remove default underline */
+}
+
+.list2 li::before {
+    content: '';
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 100%; /* Position it below the text */
+    width: 0;
+    height: 2px; /* Height of the underline */
+    background: #60c6df; /* Yellow color */
+    transition-duration: .5s; /* Transition effect */
+}
+
+.list2 li:hover::before {
+    width: 100px; /* Width of the underline on hover */
+}
+
+.footer a:hover {
+    color: #60c6df; /* Change color on hover */
+}
+.list1 {
+    position: relative; /* Ensure the list is positioned relative for absolute positioning of pseudo-elements */
+}
+
+.list1 li {
+    position: relative; /* Position relative to allow absolute positioning of the pseudo-element */
+    list-style: none; /* Remove default list styling */
+}
+
+.list1 li a {
+    position: relative; /* Position relative to allow absolute positioning of the pseudo-element */
+    text-decoration: none; /* Remove default underline */
+}
+
+.list1 li::before {
+    content: '';
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 100%; /* Position it below the text */
+    width: 0;
+    height: 2px; /* Height of the underline */
+    background: #60c6df; /* Yellow color */
+    transition-duration: .5s; /* Transition effect */
+}
+
+.list1 li:hover::before {
+    width: 120px; /* Width of the underline on hover */
+}
